@@ -6,6 +6,14 @@
 `get_defender_action_types.py` pulls the Advanced Hunting ActionTypes from the
 Defender XDR internal huntingService API and writes them to JSON.
 
+## Quickstart
+
+Grab the prebuilt action types without running the script:
+
+```bash
+curl -s https://raw.githubusercontent.com/Null0x47/xdr-action-types/refs/heads/main/action-types.json | jq
+```
+
 ## Prerequisites
 
 - Python3
